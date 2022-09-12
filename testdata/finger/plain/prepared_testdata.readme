@@ -1,0 +1,20 @@
+The original image saved in WSQ format:
+finger_SonateqV3_33049_10_001_SONATEQ.png -> finger_SonateqV3_33049_10_001_SONATEQ.wsq
+finger_NISTSD29v8_002_3_03_A002.png -> finger_NISTSD29v8_002_3_03_A002.wsq
+finger_NISTSD29v8_002_3_04_B002.png -> finger_NISTSD29v8_002_3_04_B002.wsq
+finger_NISTSD29v8_010_3_03_A010.png -> finger_NISTSD29v8_010_3_03_A010.wsq
+
+The original image saved in Bitmap format:
+finger_SonateqV3_33049_10_001_SONATEQ.png -> finger_SonateqV3_33049_10_001_SONATEQ.bmp
+
+The original image saved in compressed JPEG 2000 format:
+finger_SonateqV3_33049_10_001_SONATEQ.png -> finger_SonateqV3_33049_10_001_SONATEQ_compressed.jp2
+
+The original image saved in lossless JPEG 2000 format:
+finger_SonateqV3_33049_10_001_SONATEQ.png -> finger_SonateqV3_33049_10_001_SONATEQ_lossless.jp2
+
+finger_NISTSD29v8_010_6_03_A010_prepared_partOfFingerprintAsSmallImage.png
+A part of the original image finger_NISTSD29v8_010_6_03_A010.png saved as small image.
+
+finger_NISTSD29v8_010_6_04_B010_prepared_partOfFingerprintAsSmallImage_formatCompressed.jp2
+A part of the original image finger_NISTSD29v8_010_6_04_B010.png saved as small image in compressed JPEG 2000 format.

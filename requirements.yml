@@ -1,0 +1,11 @@
+---
+collections:
+  - name: dermalog.abis_core
+    source: collection_archives/dermalog-abis_core-2.22.0.tar.gz
+    type: file
+  - name: dermalog.dbs
+    source: collection_archives/dermalog-dbs-1.3.0.tar.gz
+    type: file
+  - name: dermalog.nginx
+    source: collection_archives/dermalog-nginx-1.1.0.tar.gz
+    type: file

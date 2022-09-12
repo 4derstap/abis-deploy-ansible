@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>CODEMETER</short>
+  <description>WIBU Codemeter license server</description>
+  <port protocol="tcp" port="22350"/>
+  <port protocol="tcp" port="22352"/>
+  <port protocol="tcp" port="22353"/>
+</service>
