@@ -11,7 +11,8 @@
     - [Install collections](#install-collections)
     - [Prepare configuration data](#prepare-configuration-data)
     - [Apply the deployment configuration](#apply-the-deployment-configuration)
-  - [Preparing HA environment](#preparing-ha-environment)
+    - [Monitoring ABIS](#monitoring-abis)
+  - [Preparing for failures](#preparing-for-failures)
 
 ## ABIS Backend
 
@@ -87,4 +88,6 @@ The configuration data shall be prepared so that the services can work properly 
 ansible-playbook -i inventories/abis_18.4.0 -i inventories/abis dermalog.abis_core.abis_install
 ```
 
-## Preparing HA environment
+### Monitoring ABIS
+
+## Preparing for failures
