@@ -12,7 +12,8 @@
     - [Prepare configuration data](#prepare-configuration-data)
     - [Apply the deployment configuration](#apply-the-deployment-configuration)
     - [Monitoring ABIS](#monitoring-abis)
-  - [Preparing for failures](#preparing-for-failures)
+      - [Quickcheck](#quickcheck)
+      - [Check service endpoints](#check-service-endpoints)
 
 ## ABIS Backend
 
@@ -90,4 +91,16 @@ ansible-playbook -i inventories/abis_18.4.0 -i inventories/abis dermalog.abis_co
 
 ### Monitoring ABIS
 
-## Preparing for failures
+#### Quickcheck
+
+Run `abis_systemcheck.sh` in order to check if all installed services are up and running.
+
+```sh
+ansible -a 'abis_systemcheck.sh -v' -i inventories/abis abis_backend
+```
+
+#### Check service endpoints
+
+* http://<targetnode>:8080/v1/info
+* http://<targetnode>:8081/v1/info
+* ...

@@ -1,0 +1,13 @@
+# Takeaways
+
+* Use become only instead of expecting root access.
+  ==> ansible_become_user... in hosts
+
+* SELinux profiles?
+* Playbook for deleting DB objects/cleaning tables
+* Ansible collections as archive in ABIS releases
+* SNMP AgentX permissions changed root/dermalog ==> dermalog/dermalog
+* RPM repo should be gpg check enabled ==> sign dermalog packages
+* Add possibilty to stop services, using ansible (could be done with a tag e.g.)
+* Configure firewall with Ansible.
+*
